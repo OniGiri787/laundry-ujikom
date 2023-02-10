@@ -1,0 +1,55 @@
+/* --- Login --- */
+/* With Class */
+body {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/bg.png);
+
+}
+
+
+
+#login {
+    height: 600px;
+    border-radius: 10px;
+}
+
+/* With Id */
+#login-card {
+    height: 600px;
+    background-color: #ffffff62;
+}
+
+#form2Example1 {
+    background-color: #ffffff00;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 255, 0.562);
+    border-radius: 0;
+}
+#form2Example1 input::-webkit-input-placeholder{
+    color: blue;
+}
+
+#form2Example2{
+    background-color: #ffffff00;
+    border: none;
+    border-bottom: 2px solid blue;
+    border-radius: 0;
+}
+
+.judul{
+    color: #0000FF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.isi-kiri{
+    position: relative;
+
+}
+
+#form-outline input{
+    background-color: blue;
+}
+
+button #masuk {
+    width: 200px;
+}

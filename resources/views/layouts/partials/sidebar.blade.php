@@ -1,16 +1,20 @@
 <div id="sidebar" class="active">
     <div class="sidebar-wrapper active">
         <div class="sidebar-header position-relative">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="logo pt-3">
-                    <a href="/dashboard">
-                        <h5>LAUNDRY</h5>
-                    </a>
-                </div>
-                <div class="theme-toggle d-flex gap-2 align-items-center mt-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20"
-                        height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+
+            {{-- Teks & Logo --}}
+            <div class="pt-2 border">
+                <a href="/dashboard">
+                    <h5 class="text-center">LAUNDRY UJIKOM</h5>
+                </a>
+            </div>
+
+            {{-- Toogle Button Dark Mode & Light Mode --}}
+            <div class="d-flex justify-content-center">
+                <div class="theme-toggle d-flex gap-2 align-items-center mt-2 border">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+                        role="img" class="iconify iconify--system-uicons" width="20" height="20"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
                         <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round"
                             stroke-linejoin="round">
                             <path
@@ -41,10 +45,22 @@
                 </div>
             </div>
         </div>
-        <div class="sidebar-menu border">
-            <ul class="menu border">
-                <li class="sidebar-title">Menu</li>
-            </ul>
+
+        {{-- Menu Sidebar --}}
+        <div class="sidebar-menu pt-0 border">
+                <div class="card">
+                    <div class="card-body pt-4 pb-1 px-4 border">
+                        <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xl">
+                                <img src="assets/images/faces/1.jpg" alt="Face 1">
+                            </div>
+                            <div class="ms-3 name">
+                                <h5 class="font-bold">John Duck</h5>
+                                <h6 class="text-muted mb-0">@johnducky</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <ul class="menu">
                 <li class="sidebar-title">Menu</li>
 

@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 
+    {{-- Framework Stylesheet --}}
     <link rel="stylesheet" href="{{ asset('assets/css/main/app.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main/app-dark.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/shared/iconly.css') }}">
+    <link rel="stylesheet" href="{{ asset('fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     {{-- Icon --}}
-    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('img/mesin-cuci.png') }}" type="image/png">
 
 </head>
 
@@ -34,10 +36,10 @@
             <div class="page-heading">
                 <div class="row">
                     <div class="col-md-8 pt-5">
-                        <h3>Profile Statistics</h3> 
+                        <h3>Profile Statistics</h3>
                     </div>
                     <div class="col-md-4 pt-2">
-                        
+
                     </div>
                 </div>
             </div>
